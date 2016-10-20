@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDB3A3381E8F0609BA60AD51402D748 /* Pods-basketball_visionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266BA61CBA4E30182F0D713D04870CD /* Pods-basketball_visionTests-dummy.m */; };
+		71B11C0A1A310F3EE7C83E5E58536339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7703C7C7B7CECC399014629733392DC8 /* Pods-basketball_visionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8782943FD2763FE84D7650E2566BC9 /* Pods-basketball_visionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C949C01084061F6B5EEA6B8B318948 /* Pods-basketball_vision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 491DA1C8EE016E81B58095B829F495DA /* Pods-basketball_vision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A34EACCDBD567EF290A230F8369CB73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B8EAFB59085C94CC8CB22FFACD3EE126 /* Pods-basketball_vision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F498D1FF606E0FDC5372CF7D98061020 /* Pods-basketball_vision-dummy.m */; };
+		E6E1D2DD9B83C8DE55DD638C98134E94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F0F6D8110DFD4B3AF6456E2116D9C61B /* Pods-basketball_visionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EAFEAE137053BC0E04699401510B13 /* Pods-basketball_visionUITests-dummy.m */; };
+		F28C4FECFF479605FE0C111C4D1F5EEA /* Pods-basketball_visionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFB4D10BA3E95FF7FD4350AE8D80523 /* Pods-basketball_visionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02102140BEC8D3D2D8B74C776EA4CF01 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		0C7568F0D45C10086669F4B929F84F45 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		1748627FCEB42E416B5CD38E7E16A123 /* GGLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLCore.framework; path = Frameworks/GGLCore.framework; sourceTree = "<group>"; };
+		18329E749153C30AB008601E4AE57BE3 /* Pods-basketball_visionTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-basketball_visionTests-frameworks.sh"; sourceTree = "<group>"; };
+		19100FF8ED2DD012A078C492364099EA /* Pods_basketball_vision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basketball_vision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D95C3C693854DB59726F528123C6183 /* Pods-basketball_vision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-basketball_vision.modulemap"; sourceTree = "<group>"; };
+		1E9F19EB5DC1F78675419EDBDCA46BC9 /* Pods-basketball_vision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketball_vision.debug.xcconfig"; sourceTree = "<group>"; };
+		25F8242BD515F3FF36B7613048FC43D4 /* Pods-basketball_visionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketball_visionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2916B4726378609F8489345C030615DE /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = Frameworks/frameworks/GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		34364A3C0EF5AD3DFAA167962AC0B836 /* Pods-basketball_visionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketball_visionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8782943FD2763FE84D7650E2566BC9 /* Pods-basketball_visionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-basketball_visionTests-umbrella.h"; sourceTree = "<group>"; };
+		491DA1C8EE016E81B58095B829F495DA /* Pods-basketball_vision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-basketball_vision-umbrella.h"; sourceTree = "<group>"; };
+		4B39708CDBD88D264F43E45F8280A226 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		60B9EA11323F25E199D568D3EB819AF8 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		618DCA03A761FE7CCD5DD2E1B00418FC /* Pods-basketball_vision-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-basketball_vision-frameworks.sh"; sourceTree = "<group>"; };
+		678FADFBAE7FA1C24B636CD2A8D46B8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5DDFCAE2398533E9E3932947A3BC6C /* Pods-basketball_vision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-basketball_vision-acknowledgements.plist"; sourceTree = "<group>"; };
+		716434B4C1E7373BB1D4ADECB8D5C821 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = Frameworks/frameworks/GoogleAuthUtilities.framework/Resources/GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		73FD2EF1883A6DB07BF3902960C7BC5C /* Pods_basketball_visionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basketball_visionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7676258028C2767DE2A6AD847CD25822 /* Pods-basketball_vision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketball_vision.release.xcconfig"; sourceTree = "<group>"; };
+		84A2601394AB4121EA2C16065A9E01A9 /* Pods-basketball_visionUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-basketball_visionUITests-resources.sh"; sourceTree = "<group>"; };
+		85E2F4DAB45D10B12E54036E9552F5D1 /* SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SignIn.h; path = Headers/SignIn.h; sourceTree = "<group>"; };
+		881EF52978DA6878C12F19ADEA48C981 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		89ED39CB547757F970535D2C414B2410 /* Pods-basketball_visionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-basketball_visionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F9DAEE9E2956711DD68780A85D4206 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		8AFB4D10BA3E95FF7FD4350AE8D80523 /* Pods-basketball_visionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-basketball_visionUITests-umbrella.h"; sourceTree = "<group>"; };
+		8D40DB6CFB20DC7B5A89874FFDAB7D26 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		8F7C37736712F9CA0204363780DD5609 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9266BA61CBA4E30182F0D713D04870CD /* Pods-basketball_visionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-basketball_visionTests-dummy.m"; sourceTree = "<group>"; };
+		934AA04BD79A5E854E1620E727E80A99 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A5D2483307D31641FD69C9228A8B27 /* Pods-basketball_visionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-basketball_visionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B9305CCA64430DF7D427446A45A1988 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		A14A8C97F4C5D86F535DD4C1C75CC6D5 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/Core.h; sourceTree = "<group>"; };
+		A1EAFEAE137053BC0E04699401510B13 /* Pods-basketball_visionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-basketball_visionUITests-dummy.m"; sourceTree = "<group>"; };
+		A5469BD0745EE3A8014E8D0C8961AA03 /* Pods-basketball_visionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-basketball_visionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAD09BFD547C1A305A5C6962B273F4B2 /* Pods_basketball_visionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basketball_visionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12C91D3B1771D7EDA7F8FCC6665CAA3 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		B201F36EA3352D6DA4BCDE997F5ECB3B /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		B539CBF352544067AFF7A982285FC39C /* Pods-basketball_visionTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-basketball_visionTests-resources.sh"; sourceTree = "<group>"; };
+		B689F3AC438E216E545533FC020F3D95 /* Pods-basketball_vision-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-basketball_vision-resources.sh"; sourceTree = "<group>"; };
+		BC27AB0724C3F091AF896BE0F4155086 /* Pods-basketball_visionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-basketball_visionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF32E0AFE290170E1575285F329008AA /* Pods-basketball_visionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-basketball_visionUITests.modulemap"; sourceTree = "<group>"; };
+		C0B2B26D3DA47AE144AAA14C1031079B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C1F5CEF707E7A48AC71829FB9DEABC01 /* Pods-basketball_visionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-basketball_visionTests.modulemap"; sourceTree = "<group>"; };
+		C35BDCC36C6411BF8F2FCF9F97AB63DF /* Pods-basketball_visionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketball_visionTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4BACA51A3D6A83702E1545052B1B018 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = Frameworks/frameworks/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		CA40565E70F519D17C7E8B2EBED1569B /* Pods-basketball_vision-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-basketball_vision-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D436A139C4547677B1DA6F0DF8407AEE /* Pods-basketball_visionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-basketball_visionUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D855467260691DA8AB5EF0A69FF8E1AD /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		D8F5D30ADC6B26746292AC98F2FD174D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C5E416BEDF1242F574DF0684DDEB4F /* GGLSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLSignIn.framework; path = Frameworks/GGLSignIn.framework; sourceTree = "<group>"; };
+		F075F55EB9B51512FD5677D81A2FC003 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		F1F2398A8C8FB91790379923647063BE /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		F3A628AC4C7E45949ABF56EF48A60F6C /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F498D1FF606E0FDC5372CF7D98061020 /* Pods-basketball_vision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-basketball_vision-dummy.m"; sourceTree = "<group>"; };
+		FD5E2ADF3045EB942F85DE7F4AC83B16 /* Pods-basketball_visionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketball_visionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C538BC42E52F375D26179F611A6D8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34EACCDBD567EF290A230F8369CB73B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A568648A61D18B292FE62E1E519E26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B11C0A1A310F3EE7C83E5E58536339 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E948AA0B294D0C1FF9995DE5A7FC997D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E1D2DD9B83C8DE55DD638C98134E94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00458BB7FF759D55C7F175A3933E4219 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1E6FEBD2D12FAFF37B0E2C1E7B74F /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		118869413F422C16BC164717DD0DA389 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				15ED9D0346ADBE327563CF6BCEC5AAAA /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		15ED9D0346ADBE327563CF6BCEC5AAAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B9EA11323F25E199D568D3EB819AF8 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FBA4E5DB73F52EF2304A97793B3F40E /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				85E2F4DAB45D10B12E54036E9552F5D1 /* SignIn.h */,
+				4CED5C432EE48FF133B17C304EAA91FA /* Frameworks */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		210BA24C82329348D7A7370D28F49E83 /* Pods-basketball_visionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F7C37736712F9CA0204363780DD5609 /* Info.plist */,
+				BF32E0AFE290170E1575285F329008AA /* Pods-basketball_visionUITests.modulemap */,
+				89ED39CB547757F970535D2C414B2410 /* Pods-basketball_visionUITests-acknowledgements.markdown */,
+				94A5D2483307D31641FD69C9228A8B27 /* Pods-basketball_visionUITests-acknowledgements.plist */,
+				A1EAFEAE137053BC0E04699401510B13 /* Pods-basketball_visionUITests-dummy.m */,
+				D436A139C4547677B1DA6F0DF8407AEE /* Pods-basketball_visionUITests-frameworks.sh */,
+				84A2601394AB4121EA2C16065A9E01A9 /* Pods-basketball_visionUITests-resources.sh */,
+				8AFB4D10BA3E95FF7FD4350AE8D80523 /* Pods-basketball_visionUITests-umbrella.h */,
+				FD5E2ADF3045EB942F85DE7F4AC83B16 /* Pods-basketball_visionUITests.debug.xcconfig */,
+				25F8242BD515F3FF36B7613048FC43D4 /* Pods-basketball_visionUITests.release.xcconfig */,
+			);
+			name = "Pods-basketball_visionUITests";
+			path = "Target Support Files/Pods-basketball_visionUITests";
+			sourceTree = "<group>";
+		};
+		2E63119D6AEE7024C6DF260E2FFC5FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0B2B26D3DA47AE144AAA14C1031079B /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3729F3AD260E78C22F2126A6B71066AB /* Pods-basketball_vision */ = {
+			isa = PBXGroup;
+			children = (
+				678FADFBAE7FA1C24B636CD2A8D46B8F /* Info.plist */,
+				1D95C3C693854DB59726F528123C6183 /* Pods-basketball_vision.modulemap */,
+				CA40565E70F519D17C7E8B2EBED1569B /* Pods-basketball_vision-acknowledgements.markdown */,
+				6B5DDFCAE2398533E9E3932947A3BC6C /* Pods-basketball_vision-acknowledgements.plist */,
+				F498D1FF606E0FDC5372CF7D98061020 /* Pods-basketball_vision-dummy.m */,
+				618DCA03A761FE7CCD5DD2E1B00418FC /* Pods-basketball_vision-frameworks.sh */,
+				B689F3AC438E216E545533FC020F3D95 /* Pods-basketball_vision-resources.sh */,
+				491DA1C8EE016E81B58095B829F495DA /* Pods-basketball_vision-umbrella.h */,
+				1E9F19EB5DC1F78675419EDBDCA46BC9 /* Pods-basketball_vision.debug.xcconfig */,
+				7676258028C2767DE2A6AD847CD25822 /* Pods-basketball_vision.release.xcconfig */,
+			);
+			name = "Pods-basketball_vision";
+			path = "Target Support Files/Pods-basketball_vision";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F27B74788869B8B9FB41BEF85FA9864 /* GoogleAuthUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2D08CCBE3855402C2A85B4251870B /* Frameworks */,
+				8CC7592FEAA07B8E454DBD1AA8789231 /* Resources */,
+			);
+			path = GoogleAuthUtilities;
+			sourceTree = "<group>";
+		};
+		40A5384319551EC8CD558F260FB6A57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B39708CDBD88D264F43E45F8280A226 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B39A8F5C56226EB688ED18B8C71CC3 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				DAADAAC1D0C1B35FA0389894A86E1244 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		4C5EF9E6FEBDE809474BFF31C544D2FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89F9DAEE9E2956711DD68780A85D4206 /* GoogleSignIn.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4CED5C432EE48FF133B17C304EAA91FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5E416BEDF1242F574DF0684DDEB4F /* GGLSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D52EDB04D35F6233448CAC17598DFAE /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				8D40DB6CFB20DC7B5A89874FFDAB7D26 /* FIRInstanceID.h */,
+				FF5FC43F79BC7A121C5F5C2F330607D7 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		542151EDB50A84D6B3EDA60317D54AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B4C04D5F807FF7AC53FEB6CB53410 /* Firebase */,
+				EDDB286F249AC3429B0E4C48D483A110 /* FirebaseAnalytics */,
+				BE9877419601BAEAE9EEFB42301AD2B0 /* FirebaseAuth */,
+				D891EA9ABACFB013A6898538D0BFEDF6 /* FirebaseCore */,
+				48B39A8F5C56226EB688ED18B8C71CC3 /* FirebaseDatabase */,
+				4D52EDB04D35F6233448CAC17598DFAE /* FirebaseInstanceID */,
+				ECA110CD771AC9FFEF0DFA8593EDEEF5 /* Google */,
+				D3C39C48D7A7A8DDF95770A1835DBFFD /* GoogleAppUtilities */,
+				3F27B74788869B8B9FB41BEF85FA9864 /* GoogleAuthUtilities */,
+				9FC818C8B2A28388F2CA5155200C1F97 /* GoogleInterchangeUtilities */,
+				656C6B9330518F37F03F9B60DFAACCEE /* GoogleNetworkingUtilities */,
+				BA971550B26F1562A3A5A55A0C1BF4C8 /* GoogleSignIn */,
+				118869413F422C16BC164717DD0DA389 /* GoogleSymbolUtilities */,
+				00458BB7FF759D55C7F175A3933E4219 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55F8A8E8042E730FC29E64A97418B241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881EF52978DA6878C12F19ADEA48C981 /* GoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56CC29108AF0671254E78786E677BDE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B12C91D3B1771D7EDA7F8FCC6665CAA3 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6383032DDB6D2933274B6FE03E37FBEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9305CCA64430DF7D427446A45A1988 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		656C6B9330518F37F03F9B60DFAACCEE /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6383032DDB6D2933274B6FE03E37FBEB /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				542151EDB50A84D6B3EDA60317D54AD7 /* Pods */,
+				EDDB8733D673D26F27EEB7B3F78ADA5E /* Products */,
+				BC67B9E14AD4E680915A8009055C7346 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC7592FEAA07B8E454DBD1AA8789231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				716434B4C1E7373BB1D4ADECB8D5C821 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98CCCF99BC8DF55FCDD866957D5D309D /* Pods-basketball_visionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F5D30ADC6B26746292AC98F2FD174D /* Info.plist */,
+				C1F5CEF707E7A48AC71829FB9DEABC01 /* Pods-basketball_visionTests.modulemap */,
+				A5469BD0745EE3A8014E8D0C8961AA03 /* Pods-basketball_visionTests-acknowledgements.markdown */,
+				BC27AB0724C3F091AF896BE0F4155086 /* Pods-basketball_visionTests-acknowledgements.plist */,
+				9266BA61CBA4E30182F0D713D04870CD /* Pods-basketball_visionTests-dummy.m */,
+				18329E749153C30AB008601E4AE57BE3 /* Pods-basketball_visionTests-frameworks.sh */,
+				B539CBF352544067AFF7A982285FC39C /* Pods-basketball_visionTests-resources.sh */,
+				3F8782943FD2763FE84D7650E2566BC9 /* Pods-basketball_visionTests-umbrella.h */,
+				34364A3C0EF5AD3DFAA167962AC0B836 /* Pods-basketball_visionTests.debug.xcconfig */,
+				C35BDCC36C6411BF8F2FCF9F97AB63DF /* Pods-basketball_visionTests.release.xcconfig */,
+			);
+			name = "Pods-basketball_visionTests";
+			path = "Target Support Files/Pods-basketball_visionTests";
+			sourceTree = "<group>";
+		};
+		9FC818C8B2A28388F2CA5155200C1F97 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F71DBE609CA65D3D2FFA97DC2F38210B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		A3B3688048E2D7994702160D2CEC4093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4BACA51A3D6A83702E1545052B1B018 /* GoogleAppUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5865ABD17F8B3EFF69B1880EBFF2F24 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				934AA04BD79A5E854E1620E727E80A99 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B7155B6D41EA4ABBA706FA52A02296EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1748627FCEB42E416B5CD38E7E16A123 /* GGLCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA971550B26F1562A3A5A55A0C1BF4C8 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				55F8A8E8042E730FC29E64A97418B241 /* Frameworks */,
+				4C5EF9E6FEBDE809474BFF31C544D2FD /* Resources */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC67B9E14AD4E680915A8009055C7346 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3729F3AD260E78C22F2126A6B71066AB /* Pods-basketball_vision */,
+				98CCCF99BC8DF55FCDD866957D5D309D /* Pods-basketball_visionTests */,
+				210BA24C82329348D7A7370D28F49E83 /* Pods-basketball_visionUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCF0DB605CC010CAEA73D59C6739E48E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F075F55EB9B51512FD5677D81A2FC003 /* Analytics-Module.h */,
+				A14A8C97F4C5D86F535DD4C1C75CC6D5 /* Core.h */,
+				B201F36EA3352D6DA4BCDE997F5ECB3B /* Core-Module.h */,
+				F1F2398A8C8FB91790379923647063BE /* SignIn-Module.h */,
+				B7155B6D41EA4ABBA706FA52A02296EB /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BE9877419601BAEAE9EEFB42301AD2B0 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				56CC29108AF0671254E78786E677BDE4 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		D3C39C48D7A7A8DDF95770A1835DBFFD /* GoogleAppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A3B3688048E2D7994702160D2CEC4093 /* Frameworks */,
+			);
+			path = GoogleAppUtilities;
+			sourceTree = "<group>";
+		};
+		D891EA9ABACFB013A6898538D0BFEDF6 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				40A5384319551EC8CD558F260FB6A57C /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		DA7B4C04D5F807FF7AC53FEB6CB53410 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B5865ABD17F8B3EFF69B1880EBFF2F24 /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		DAADAAC1D0C1B35FA0389894A86E1244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7568F0D45C10086669F4B929F84F45 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E2D08CCBE3855402C2A85B4251870B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2916B4726378609F8489345C030615DE /* GoogleAuthUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA110CD771AC9FFEF0DFA8593EDEEF5 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0DB605CC010CAEA73D59C6739E48E /* Core */,
+				1FBA4E5DB73F52EF2304A97793B3F40E /* SignIn */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		EDDB286F249AC3429B0E4C48D483A110 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				2E63119D6AEE7024C6DF260E2FFC5FE8 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		EDDB8733D673D26F27EEB7B3F78ADA5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19100FF8ED2DD012A078C492364099EA /* Pods_basketball_vision.framework */,
+				AAD09BFD547C1A305A5C6962B273F4B2 /* Pods_basketball_visionTests.framework */,
+				73FD2EF1883A6DB07BF3902960C7BC5C /* Pods_basketball_visionUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71DBE609CA65D3D2FFA97DC2F38210B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02102140BEC8D3D2D8B74C776EA4CF01 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC1E6FEBD2D12FAFF37B0E2C1E7B74F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A628AC4C7E45949ABF56EF48A60F6C /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5FC43F79BC7A121C5F5C2F330607D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D855467260691DA8AB5EF0A69FF8E1AD /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E7BE8000DCB22968718030386102F5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7703C7C7B7CECC399014629733392DC8 /* Pods-basketball_visionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19E157708FF42D38B619458EE7755F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28C4FECFF479605FE0C111C4D1F5EEA /* Pods-basketball_visionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF66D7CC3C1506A2BDA55B8BDD3805A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C949C01084061F6B5EEA6B8B318948 /* Pods-basketball_vision-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65D1948DB3A9F1E0C902B241AEEFACCF /* Pods-basketball_visionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504943B37A47510ABBB3C61A4A8DFC78 /* Build configuration list for PBXNativeTarget "Pods-basketball_visionTests" */;
+			buildPhases = (
+				312410F23B800A51535C734F122DCE3D /* Sources */,
+				6A568648A61D18B292FE62E1E519E26E /* Frameworks */,
+				1E7BE8000DCB22968718030386102F5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-basketball_visionTests";
+			productName = "Pods-basketball_visionTests";
+			productReference = AAD09BFD547C1A305A5C6962B273F4B2 /* Pods_basketball_visionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B303C7AB728F9743961EC9A9ED1387E0 /* Pods-basketball_vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945E39A85336DD7C9975B022DC08A8AD /* Build configuration list for PBXNativeTarget "Pods-basketball_vision" */;
+			buildPhases = (
+				2C6F533C4ACB8D10CC727036E361A495 /* Sources */,
+				4C538BC42E52F375D26179F611A6D8CF /* Frameworks */,
+				CF66D7CC3C1506A2BDA55B8BDD3805A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-basketball_vision";
+			productName = "Pods-basketball_vision";
+			productReference = 19100FF8ED2DD012A078C492364099EA /* Pods_basketball_vision.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C29BDC4394A73AA75076BA6B33723190 /* Pods-basketball_visionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34645729B098DEE623BAB480FB05918A /* Build configuration list for PBXNativeTarget "Pods-basketball_visionUITests" */;
+			buildPhases = (
+				CB2D7B3BB1C61C9C12A7A9D1070B4C87 /* Sources */,
+				E948AA0B294D0C1FF9995DE5A7FC997D /* Frameworks */,
+				C19E157708FF42D38B619458EE7755F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-basketball_visionUITests";
+			productName = "Pods-basketball_visionUITests";
+			productReference = 73FD2EF1883A6DB07BF3902960C7BC5C /* Pods_basketball_visionUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDDB8733D673D26F27EEB7B3F78ADA5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B303C7AB728F9743961EC9A9ED1387E0 /* Pods-basketball_vision */,
+				65D1948DB3A9F1E0C902B241AEEFACCF /* Pods-basketball_visionTests */,
+				C29BDC4394A73AA75076BA6B33723190 /* Pods-basketball_visionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6F533C4ACB8D10CC727036E361A495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EAFB59085C94CC8CB22FFACD3EE126 /* Pods-basketball_vision-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312410F23B800A51535C734F122DCE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDB3A3381E8F0609BA60AD51402D748 /* Pods-basketball_visionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2D7B3BB1C61C9C12A7A9D1070B4C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F6D8110DFD4B3AF6456E2116D9C61B /* Pods-basketball_visionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		155AC161E3893FA6115CBACB2C1EEE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35BDCC36C6411BF8F2FCF9F97AB63DF /* Pods-basketball_visionTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-basketball_visionTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-basketball_visionTests/Pods-basketball_visionTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_basketball_visionTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53AF777060D874E617499DB7776FFCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F8242BD515F3FF36B7613048FC43D4 /* Pods-basketball_visionUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-basketball_visionUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-basketball_visionUITests/Pods-basketball_visionUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_basketball_visionUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		681D870CB2F3912E1AF37759F2ECF20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9F19EB5DC1F78675419EDBDCA46BC9 /* Pods-basketball_vision.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-basketball_vision/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-basketball_vision/Pods-basketball_vision.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_basketball_vision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1AB99896EF221E164FE426B4514E5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34364A3C0EF5AD3DFAA167962AC0B836 /* Pods-basketball_visionTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-basketball_visionTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-basketball_visionTests/Pods-basketball_visionTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_basketball_visionTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF8385ED1DE99ABF95E30E059E661A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7676258028C2767DE2A6AD847CD25822 /* Pods-basketball_vision.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-basketball_vision/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-basketball_vision/Pods-basketball_vision.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_basketball_vision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFE290D48D412D5634C008F88122F544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5E2ADF3045EB942F85DE7F4AC83B16 /* Pods-basketball_visionUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-basketball_visionUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-basketball_visionUITests/Pods-basketball_visionUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_basketball_visionUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34645729B098DEE623BAB480FB05918A /* Build configuration list for PBXNativeTarget "Pods-basketball_visionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE290D48D412D5634C008F88122F544 /* Debug */,
+				53AF777060D874E617499DB7776FFCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504943B37A47510ABBB3C61A4A8DFC78 /* Build configuration list for PBXNativeTarget "Pods-basketball_visionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AB99896EF221E164FE426B4514E5C6 /* Debug */,
+				155AC161E3893FA6115CBACB2C1EEE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945E39A85336DD7C9975B022DC08A8AD /* Build configuration list for PBXNativeTarget "Pods-basketball_vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681D870CB2F3912E1AF37759F2ECF20A /* Debug */,
+				DF8385ED1DE99ABF95E30E059E661A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

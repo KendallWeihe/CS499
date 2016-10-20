@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		301F2557D15A1065EC49B244 /* Pods_g_sign_inTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96FBEBC1155F643F5A6B9A0 /* Pods_g_sign_inTests.framework */; };
+		403CDFBE1DB3EFE700BF29C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403CDFBD1DB3EFE700BF29C3 /* HomeViewController.swift */; };
 		40C3069B1DB2A00A0011812A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3069A1DB2A00A0011812A /* AppDelegate.swift */; };
 		40C3069D1DB2A00A0011812A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3069C1DB2A00A0011812A /* ViewController.swift */; };
-		40C306A01DB2A00A0011812A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C3069E1DB2A00A0011812A /* Main.storyboard */; };
 		40C306A21DB2A00A0011812A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C306A11DB2A00A0011812A /* Assets.xcassets */; };
 		40C306A51DB2A00A0011812A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C306A31DB2A00A0011812A /* LaunchScreen.storyboard */; };
 		40C306B01DB2A00A0011812A /* g_sign_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C306AF1DB2A00A0011812A /* g_sign_inTests.swift */; };
 		40C306BB1DB2A00B0011812A /* g_sign_inUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C306BA1DB2A00B0011812A /* g_sign_inUITests.swift */; };
 		40EDF0961DB2A67200296EDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40EDF0951DB2A67200296EDD /* GoogleService-Info.plist */; };
+		40FC8EA71DB419CD00A92091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FC8EA51DB419CD00A92091 /* Main.storyboard */; };
 		50BBA9E292CB4940E81F9887 /* Pods_g_sign_in.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489D2C050F3EFDF7FFC96BE4 /* Pods_g_sign_in.framework */; };
 		7373EB8CD0894175EDD75BAA /* Pods_g_sign_inUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEAC137B6E77B9D292CE85D /* Pods_g_sign_inUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,11 +43,11 @@
 		11EAF658A2EED0FA12156673 /* Pods-g_sign_inUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g_sign_inUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-g_sign_inUITests/Pods-g_sign_inUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B34D66020CE3B3C7DF1B170 /* Pods-g_sign_inUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g_sign_inUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-g_sign_inUITests/Pods-g_sign_inUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3133510A11EB4F2388577B52 /* Pods-g_sign_inTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g_sign_inTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-g_sign_inTests/Pods-g_sign_inTests.release.xcconfig"; sourceTree = "<group>"; };
+		403CDFBD1DB3EFE700BF29C3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		404EACC61DB2A0F200683D00 /* g_sign_in-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "g_sign_in-Bridging-Header.h"; sourceTree = "<group>"; };
 		40C306971DB2A00A0011812A /* g_sign_in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g_sign_in.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C3069A1DB2A00A0011812A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C3069C1DB2A00A0011812A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40C3069F1DB2A00A0011812A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40C306A11DB2A00A0011812A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C306A41DB2A00A0011812A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40C306A61DB2A00A0011812A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		40C306BA1DB2A00B0011812A /* g_sign_inUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = g_sign_inUITests.swift; sourceTree = "<group>"; };
 		40C306BC1DB2A00B0011812A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40EDF0951DB2A67200296EDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40FC8EA61DB419CD00A92091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		489D2C050F3EFDF7FFC96BE4 /* Pods_g_sign_in.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_g_sign_in.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADDC0372ABACF3EA9D4D2E5 /* Pods-g_sign_in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g_sign_in.release.xcconfig"; path = "Pods/Target Support Files/Pods-g_sign_in/Pods-g_sign_in.release.xcconfig"; sourceTree = "<group>"; };
 		90FF2784D8BC35A020D0B158 /* Pods-g_sign_in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g_sign_in.debug.xcconfig"; path = "Pods/Target Support Files/Pods-g_sign_in/Pods-g_sign_in.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,10 +142,11 @@
 		40C306991DB2A00A0011812A /* g_sign_in */ = {
 			isa = PBXGroup;
 			children = (
+				40FC8EA51DB419CD00A92091 /* Main.storyboard */,
+				403CDFBD1DB3EFE700BF29C3 /* HomeViewController.swift */,
 				40C3069A1DB2A00A0011812A /* AppDelegate.swift */,
 				40EDF0951DB2A67200296EDD /* GoogleService-Info.plist */,
 				40C3069C1DB2A00A0011812A /* ViewController.swift */,
-				40C3069E1DB2A00A0011812A /* Main.storyboard */,
 				40C306A11DB2A00A0011812A /* Assets.xcassets */,
 				40C306A31DB2A00A0011812A /* LaunchScreen.storyboard */,
 				40C306A61DB2A00A0011812A /* Info.plist */,
@@ -292,7 +295,7 @@
 				40C306A51DB2A00A0011812A /* LaunchScreen.storyboard in Resources */,
 				40EDF0961DB2A67200296EDD /* GoogleService-Info.plist in Resources */,
 				40C306A21DB2A00A0011812A /* Assets.xcassets in Resources */,
-				40C306A01DB2A00A0011812A /* Main.storyboard in Resources */,
+				40FC8EA71DB419CD00A92091 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +445,7 @@
 			files = (
 				40C3069D1DB2A00A0011812A /* ViewController.swift in Sources */,
 				40C3069B1DB2A00A0011812A /* AppDelegate.swift in Sources */,
+				403CDFBE1DB3EFE700BF29C3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,20 +481,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40C3069E1DB2A00A0011812A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40C3069F1DB2A00A0011812A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40C306A31DB2A00A0011812A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				40C306A41DB2A00A0011812A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		40FC8EA51DB419CD00A92091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FC8EA61DB419CD00A92091 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
