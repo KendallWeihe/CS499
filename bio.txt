@@ -1,0 +1,67 @@
+About:
+
+I organized the foundations for this project. I knew all team members prior to the beginning of this project, and asked each person to join for specific reasons.
+The client was one of my high school teachers. I was ecstatic when he told me about the project idea, and I immediately requested a partnership between North Oldham High School
+and the University of Kentucky. My responsibilities include general workflow organization, iOS development, Embedded Systems design/support, and documentation contributer.
+
+<table class="skills_table">
+   <tr>
+     <td>C, C++, Python, Ruby on Rails, HTML5, CSS, Javascript, PostgreSQL, SQL, LaTeX, Shell Scripting</td>
+   </tr>
+   <tr>
+     <td>GIT</td>
+   </tr>
+   <tr>
+     <td>GNU Tools (GDB,GCC,G++)</td>
+   </tr>
+   <tr>
+     <td>Ubuntu 16.04, Mac OS</td>
+   </tr>
+   <tr>
+     <td>Atom, VIM, NANO</td>
+   </tr>
+   <tr>
+     <td>Basic IT maintenance and repair</td>
+   </tr>
+ </table>
+
+
+ <section class="container shadow bio_container resources_color">
+   <h1 class="bio_title">Resume and Resources</h1>
+
+   <section class="resources shadow">
+     <section class="bio_professional">
+       <h2 class="section-bold">Professional</h2>
+
+       <ul>
+         <li><a href="https://www.linkedin.com/in/kendall-weihe-5b963a64?trk=nav_responsive_tab_profile_pic" target="_blank">Linkedin</a></li>
+       </ul>
+     </section>
+
+     <section class="bio_resume">
+       <h2 class="section-bold">Resume</h2>
+
+       <ul>
+         <li><a href="./Documents/kendall_resume.pdf" target="_blank">Kendall Weihe -- Resume</a></li>
+       </ul>
+     </section>
+
+     <section class="bio_github">
+       <h2 class="section-bold">Github</h2>
+
+       <ul>
+         <li><a href="https://github.com/KendallWeihe" target="_blank">GitHub Profile</a></li>
+       </ul>
+     </section>
+
+   </section>
+ </section>
+
+ <section class="container shadow bio_container contact_color">
+   <h1 class="bio_title">Contact</h1>
+
+   <section class="contact_container shadow">
+     <h2>kendallweihe@gmail.com</h2>
+     <h2>502-216-5761</h2>
+   </section>
+ </section>
